@@ -10,7 +10,9 @@ export const FormExample = () => {
                 'gap-2',
                 'items-center',
                 'bg-cream',
-                'p-10'
+                'text-center',
+                'p-2',
+                'lg:p-10'
             )}
         >
             <h2
@@ -24,7 +26,15 @@ export const FormExample = () => {
             >
                 Form Example
             </h2>
-            <div className={clsx('flex', 'gap-10', 'py-10')}>
+            <div
+                className={clsx(
+                    'flex',
+                    'gap-10',
+                    'py-10',
+                    'flex-col',
+                    'sm:flex-row'
+                )}
+            >
                 <Form />
                 <div className={clsx('w-px', 'bg-black')} />
                 <Form isEditExample />

@@ -3,6 +3,8 @@ Instructions for running the project:
 1. npm i
 2. npm run dev #
 
+or open link https://first-name-last-name-fatcat-task-git-main-noni86kgs-projects.vercel.app/
+
 Explanation of how I have implemented these features:
 
 1. Transfer the project to TypeScript

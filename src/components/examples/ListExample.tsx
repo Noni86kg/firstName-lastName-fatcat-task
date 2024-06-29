@@ -59,7 +59,9 @@ export const ListExample = () => {
                 'flex-col',
                 'gap-2',
                 'items-center',
-                'p-10'
+                'text-center',
+                'p-2',
+                'lg:p-10'
             )}
         >
             <h2

@@ -9,7 +9,8 @@ export const PageGeneratorExample = () => {
                 'flex-col',
                 'gap-2',
                 'items-center',
-                'p-10'
+                'p-2',
+                'lg:p-10'
             )}
         >
             <h2
@@ -18,7 +19,8 @@ export const PageGeneratorExample = () => {
                     'text-3xl',
                     'D:text-4xl',
                     'xl:leading-normal',
-                    'text-black'
+                    'text-black',
+                    'text-center'
                 )}
             >
                 Page Generator Component Example
@@ -33,7 +35,7 @@ export const PageGeneratorExample = () => {
                         type: 'VBox',
                         props: {
                             className:
-                                'gap-7 bg-primary w-full p-20 rounded my-10 text-white',
+                                'gap-7 bg-primary w-full p-5 lg:p-20 rounded my-10 text-white lg:text-start text-center',
                         },
                         components: [
                             {
@@ -150,7 +152,7 @@ export const PageGeneratorExample = () => {
                         type: 'VBox',
                         props: {
                             className:
-                                'gap-5 bg-cream w-full p-20 rounded my-10 text-black',
+                                'gap-5 bg-cream w-full p-5 lg:p-20 rounded my-10 text-black',
                         },
                         components: [
                             {
